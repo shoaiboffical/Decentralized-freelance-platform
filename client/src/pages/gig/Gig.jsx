@@ -25,9 +25,11 @@ const Gig = () => {
                     return res.data;    
                 }),enabled:!!userId,
     });
-    // console.log(dataUser);
-     console.log(data);
+    // console.log("------------>>>>>>>>>>");
+    //  console.log(dataUser);
+    //  console.log(data);
     return ([
+       
         <div className="gig">
             {isLoading ? <div className="loader"></div> : error ? <h4>Something Went Wrong</h4> :
                 <div className="container">
